@@ -88,7 +88,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://webhook-cpc-bot.herokuapp.com/' + API_TOKEN)
+    bot.set_webhook(url='https://your-heroku-app.herokuapp.com/' + API_TOKEN)
     return "!", 200
 
 
