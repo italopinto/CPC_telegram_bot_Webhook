@@ -15,7 +15,7 @@ __author__ = "Ítalo Pinto"
 server = Flask(__name__)
 
 # The telegram token of the bot
-API_TOKEN = os.environ.get('TOKEN')
+API_TOKEN = '<TOKEN>'
 
 # Calling the class telebot with the log
 bot = telebot.TeleBot(API_TOKEN)
@@ -93,4 +93,4 @@ def webhook():
 
 
 if __name__ == "__main__":
-    server.run(host="0.0.0.0", port=int(os.environ.get('PORT')))
+    server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
