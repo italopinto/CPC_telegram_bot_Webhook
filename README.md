@@ -1,3 +1,5 @@
+![alt text](https://github.com/italopinto/CPC_telegram_bot_Webhook/blob/main/icon.png)
+
 # CPC_telegram_bot_Webhook
 A webhook Telegram bot deployed at Heroku. 
 
