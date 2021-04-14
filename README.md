@@ -11,5 +11,4 @@ A webhook Telegram bot deployed at Heroku.
 I used the incredible python Telegram bot API from ![pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI).
 
 # Notes
-* If you want to see the result of this bot in your machine without Heroku, take a look in my other project ![CPC_telegram_bot_Polling](https://github.com/italopinto/CPC_telegram_Polling).
 * Make sure to use BOT FATHER from Telegram to create your bot and receive the TOKEN, to use in the source code.
